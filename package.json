@@ -19,6 +19,7 @@
   "main": "src/app.ts",
   "private": true,
   "dependencies": {
+    "cors": "2.8.5",
     "dotenv": "6.2.0"
   },
   "devDependencies": {
