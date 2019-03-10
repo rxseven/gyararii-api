@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "codezombiech.gitignore",
+    "eamodio.gitlens",
+    "eg2.vscode-npm-script",
+    "mgmcdermott.vscode-language-babel",
+    "mikestead.dotenv",
+    "robertohuertasm.vscode-icons"
+  ]
+}
