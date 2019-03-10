@@ -70,6 +70,9 @@ typings/
 # vuepress build output
 .vuepress/dist
 
+# TypeScript build output
+build
+
 # Serverless directories
 .serverless/
 
