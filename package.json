@@ -17,5 +17,8 @@
     "npm": "6.4.1"
   },
   "main": "src/app.ts",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "nodemon": "1.18.10"
+  }
 }
