@@ -9,7 +9,7 @@ cache:
 
 script:
   # Run tests and generate code coverage reports
-  - yarn test:coverage
+  # - yarn test:coverage
   # Run code linting
   - yarn lint
   # Create a production build
