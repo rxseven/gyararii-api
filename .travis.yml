@@ -14,3 +14,9 @@ script:
   - yarn lint
   # Create a production build
   - yarn build
+
+notifications:
+  # Default email notification settings
+  email:
+    on_failure: always
+    on_success: change
