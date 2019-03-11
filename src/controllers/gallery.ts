@@ -18,6 +18,30 @@ interface UploadRequest extends Request {
   files: object;
 }
 
+// Delete images
+function deleteImages(req: Request, res: Response): void {
+  interface Result {
+    deleted: { [key: string]: string };
+    partial: boolean;
+    rate_limit_allowed: number;
+    rate_limit_remaining: number;
+    rate_limit_reset_at: string;
+  }
+
+  const { ids } = req.params;
+
+  // Delete uploaded image from Coudinary by public ID
+  cloudinary.v2.api
+    .delete_resources(ids.split(','))
+    .then((results: Result) => res.json(results))
+    .catch(() => {
+      res.status(500).send({
+        message: 'Something went wrong',
+        status: 'error'
+      });
+    });
+}
+
 // Get images
 function getImages(req: Request, res: Response): void {
   interface Options {
@@ -97,4 +121,4 @@ function uploadImages(req: UploadRequest, res: Response): void {
     });
 }
 
-export default { getImages, uploadImages };
+export default { deleteImages, getImages, uploadImages };
