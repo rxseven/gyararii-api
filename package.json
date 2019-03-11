@@ -33,6 +33,7 @@
     "@types/body-parser": "1.17.0",
     "@types/cors": "2.8.4",
     "@types/dotenv": "6.1.0",
+    "@types/lodash": "4.14.122",
     "@types/morgan": "1.7.35",
     "@types/node": "11.11.0",
     "concurrently": "4.1.0",
