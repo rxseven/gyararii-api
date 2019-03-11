@@ -6,3 +6,7 @@ node_js:
 cache:
   directories:
     - node_modules
+
+script:
+  # Run tests and generate code coverage reports
+  - yarn test:coverage
