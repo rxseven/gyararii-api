@@ -31,6 +31,13 @@
   dependencies:
     "@types/node" "*"
 
+"@types/express-promise-router@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@types/express-promise-router/-/express-promise-router-2.0.1.tgz#fe3e0b94cdcf4a5a85fbb819f3a282c86d8cbc99"
+  integrity sha512-MnzQGlCRDocBIgsCqqCOV38CyVLBOkMCLoiJ1vuDPLtz8yBjYd4l1mquGtooKUtDVChPhroFujfuGgc+9zwj3w==
+  dependencies:
+    "@types/express" "*"
+
 "@types/express-serve-static-core@*":
   version "4.16.1"
   resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.16.1.tgz#35df7b302299a4ab138a643617bd44078e74d44e"
