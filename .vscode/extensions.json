@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "codezombiech.gitignore",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "eg2.vscode-npm-script",
+    "esbenp.prettier-vscode",
+    "mgmcdermott.vscode-language-babel",
+    "mikestead.dotenv",
+    "orta.vscode-jest",
+    "robertohuertasm.vscode-icons"
+  ]
+}

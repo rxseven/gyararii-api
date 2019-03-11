@@ -1,0 +1,6 @@
+./vscode
+/build
+/config
+/coverage
+/tmp
+package.json
