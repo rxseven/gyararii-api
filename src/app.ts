@@ -1,3 +1,4 @@
+import bodyParser from 'body-parser';
 import cors from 'cors';
 import express from 'express';
 import morgan from 'morgan';
@@ -16,6 +17,9 @@ app.set('port', PORT);
 
 // HTTP request logger
 app.use(morgan('dev'));
+
+// Body parser
+app.use(bodyParser.json());
 
 // CORS
 app.use(
