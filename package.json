@@ -19,6 +19,7 @@
   "main": "src/app.ts",
   "private": true,
   "scripts": {
+    "build": "tsc",
     "start:compiler": "tsc -w",
     "start:server": "nodemon build/server.js",
     "start:watch": "concurrently \"npm run start:compiler\" \"npm run start:server\""
