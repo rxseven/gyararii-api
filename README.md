@@ -12,6 +12,7 @@
 ### Specifications
 
 - [Features](#features)
+- [Technology Stack](#technology-stack)
 
 ## Live Demo
 
@@ -163,6 +164,16 @@ yarn start
 - Fetch images
 - Upload images
 - Delete images
+
+[Back to top](#table-of-contents)
+
+## Technology Stack
+
+- Node, Express, TypeScript
+- CORS, Body-parser, .ENV, Lodash
+- [More...](https://github.com/rxseven/gyararii-api/blob/master/package.json)
+
+> Note: Web application Gyararī can be found in [this repository](https://github.com/rxseven/gyararii).
 
 [Back to top](#table-of-contents)
 
