@@ -1,3 +1,3 @@
 # Gyararī API
 
-REST API for Gyararii built with Node & Express.
+**Gyararī API is a simple REST API for collecting photos.** It was built from scratch using Node, Express, and TypeScript.
