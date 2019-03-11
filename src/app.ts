@@ -8,7 +8,10 @@ import morgan from 'morgan';
 import './config/env';
 
 // Load server configuration
-import { CLIENT_ORIGIN, PORT } from './config/server';
+import { API_VERSION, CLIENT_ORIGIN, PORT } from './config/server';
+
+// Import route handlers
+import routes from './routes';
 
 // Create Express app
 const app: express.Application = express();
@@ -31,5 +34,8 @@ app.use(
 
 // Form data parser
 app.use(formData.parse());
+
+// Connect index route
+app.use(`/api/v${API_VERSION}`, routes);
 
 export default app;
