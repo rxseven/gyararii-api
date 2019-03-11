@@ -11,5 +11,12 @@
     "comma-dangle": "off",
     "no-console": "off",
     "@typescript-eslint/no-explicit-any": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".ts"]
+      }
+    }
   }
 }
