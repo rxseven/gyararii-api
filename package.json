@@ -45,6 +45,7 @@
     "@types/lodash": "4.14.122",
     "@types/morgan": "1.7.35",
     "@types/node": "11.11.0",
+    "@typescript-eslint/parser": "1.4.2",
     "concurrently": "4.1.0",
     "cross-env": "5.2.0",
     "eslint": "5.15.1",
