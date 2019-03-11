@@ -13,6 +13,7 @@
 
 - [Features](#features)
 - [Technology Stack](#technology-stack)
+- [Development Workflow](#development-workflow)
 
 ## Live Demo
 
@@ -174,6 +175,18 @@ yarn start
 - [More...](https://github.com/rxseven/gyararii-api/blob/master/package.json)
 
 > Note: Web application Gyararī can be found in [this repository](https://github.com/rxseven/gyararii).
+
+[Back to top](#table-of-contents)
+
+## Development Workflow
+
+- JavaScript compiling/transpiling with TypeScript
+- TypeScript linting with ESLint
+- Code formatting with Prettier
+- Automate testing with Jest, SuperTest, and Nock
+- Static type checking with TypeScript
+- Pre-commit hooking with Husky and Lint-staged
+- CI/CD with GitHub, Travis CI, and Heroku
 
 [Back to top](#table-of-contents)
 
