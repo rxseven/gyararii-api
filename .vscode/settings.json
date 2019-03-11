@@ -1,6 +1,7 @@
 {
   // File associations to languages
   "files.associations": {
-    ".huskyrc": "json"
+    ".huskyrc": "json",
+    ".lintstagedrc": "json"
   }
 }
