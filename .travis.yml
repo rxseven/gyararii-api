@@ -10,3 +10,5 @@ cache:
 script:
   # Run tests and generate code coverage reports
   - yarn test:coverage
+  # Run code linting
+  - yarn lint
