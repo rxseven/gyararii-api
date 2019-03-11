@@ -1,6 +1,6 @@
 {
   "name": "gyararii-api",
-  "description": "REST API for Gyararī built with Node & Express",
+  "description": "REST API for Gyararī built with Node, Express, and TypeScript",
   "version": "0.1.2",
   "license": "AGPL-3.0-or-later",
   "author": {
