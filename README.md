@@ -17,6 +17,10 @@
 - [Third-party Services](#third-party-services)
 - [Related Projects](#related-projects)
 
+### Appendix
+
+- [Development Milestones](#development-milestones)
+
 ## Live Demo
 
 **Gyararī** is a React app running on **Heroku** at [https://gyararii.herokuapp.com](https://gyararii-api.herokuapp.com) and its **Storybook** (component library for Gyararī) is hosted on **Netlify** at [https://gyararii-api.netlify.com](https://gyararii-api.netlify.com).
@@ -212,6 +216,15 @@ yarn start
 ## Related Projects
 
 **[Gyararī](https://github.com/rxseven/gyararii)** - a simple React app for collecting photos.
+
+[Back to top](#table-of-contents)
+
+## Development Milestones
+
+- Add unit tests
+- Add request validation
+- Optimize the app’s performance
+- More...
 
 [Back to top](#table-of-contents)
 
