@@ -81,3 +81,6 @@ build
 
 # DynamoDB Local files
 .dynamodb/
+
+# Temporary files and directories
+tmp
