@@ -20,6 +20,7 @@
   "private": true,
   "scripts": {
     "build": "tsc",
+    "format": "prettier --write src/**/*.ts",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint --fix src/**/*.ts",
     "start": "node build/server.js",
