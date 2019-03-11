@@ -20,6 +20,7 @@
   "private": true,
   "scripts": {
     "build": "tsc",
+    "lint": "eslint src/**/*.ts",
     "start": "node build/server.js",
     "start:compiler": "tsc -w",
     "start:server": "nodemon build/server.js",
