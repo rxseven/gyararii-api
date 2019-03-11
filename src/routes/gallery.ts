@@ -6,6 +6,7 @@ import galleryController from '../controllers/gallery';
 const router = Router();
 
 // Route handlers
+router.route('/:ids').delete(galleryController.deleteImages);
 router
   .route('/')
   .get(galleryController.getImages)
