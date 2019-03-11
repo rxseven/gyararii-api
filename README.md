@@ -9,6 +9,10 @@
 - [Live Demo](#live-demo)
 - [Configuring the Development Environment](#configuring-the-development-environment)
 
+### Specifications
+
+- [Features](#features)
+
 ## Live Demo
 
 **Gyararī** is a React app running on **Heroku** at [https://gyararii.herokuapp.com](https://gyararii-api.herokuapp.com) and its **Storybook** (component library for Gyararī) is hosted on **Netlify** at [https://gyararii-api.netlify.com](https://gyararii-api.netlify.com).
@@ -151,6 +155,14 @@ yarn start
 **2.** Open [http://localhost:5000/api/v1/gallery](http://localhost:5000/api/v1/gallery) in Postman or any HTTP client of choice.
 
 > Tip: press `control + c` to stop the server.
+
+[Back to top](#table-of-contents)
+
+## Features
+
+- Fetch images
+- Upload images
+- Delete images
 
 [Back to top](#table-of-contents)
 
