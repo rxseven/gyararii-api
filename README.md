@@ -23,6 +23,7 @@
 - [Changelog](#changelog)
 - [Acknowledgements](#acknowledgements)
 - [Credits](#credits)
+- [Licenses](#licenses)
 
 ## Live Demo
 
@@ -242,6 +243,10 @@ Gyararī API is an open-source project built and maintained by [Theerawat Pongsu
 ## Credits
 
 Gyararī API was bootstrapped with [TypeScript Node Starter](https://github.com/Microsoft/TypeScript-Node-Starter) - a starter template for TypeScript and Node.
+
+## Licenses
+
+The content of this project itself is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International license](http://creativecommons.org/licenses/by-nc-nd/4.0/), and the underlying source code is licensed under the [GNU AGPLv3 license](https://www.gnu.org/licenses/agpl-3.0).
 
 ---
 
