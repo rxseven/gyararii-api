@@ -1,7 +1,12 @@
 import { Response, Request, Router } from 'express';
 
+import gallery from './gallery';
+
 // Creates a new router object
 const router = Router();
+
+// Nested routes
+router.use('/gallery', gallery);
 
 // Root route
 router.route('/').get(
