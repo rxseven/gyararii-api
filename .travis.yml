@@ -15,6 +15,15 @@ script:
   # Create a production build
   - yarn build
 
+deploy:
+  # Deploy to a production server (Heroku)
+  - app:
+      master: gyararii-api
+    api_key:
+      secure: $HEROKU_API_KEY
+    provider: heroku
+    skip_cleanup: true
+
 notifications:
   # Default email notification settings
   email:
