@@ -20,7 +20,8 @@
   "private": true,
   "scripts": {
     "start:compiler": "tsc -w",
-    "start:server": "nodemon build/server.js"
+    "start:server": "nodemon build/server.js",
+    "start:watch": "concurrently \"npm run start:compiler\" \"npm run start:server\""
   },
   "dependencies": {
     "body-parser": "1.18.3",
