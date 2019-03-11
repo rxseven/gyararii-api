@@ -1,5 +1,7 @@
 # Gyararī API
 
+[![Latest Release](https://img.shields.io/badge/latest-0.1.0-lightgrey.svg?style=flat 'Latest Release')](https://github.com/rxseven/gyararii-api/releases/tag/v0.1.0)
+
 **Gyararī API is a simple REST API for collecting photos.** It was built from scratch using Node, Express, and TypeScript.
 
 > Gyararī or ギャラリー literally means “Gallery” in Japanese.
