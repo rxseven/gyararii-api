@@ -22,6 +22,7 @@
 - [Development Milestones](#development-milestones)
 - [Changelog](#changelog)
 - [Acknowledgements](#acknowledgements)
+- [Credits](#credits)
 
 ## Live Demo
 
@@ -237,6 +238,10 @@ See [releases](https://github.com/rxseven/gyararii-api/releases).
 ## Acknowledgements
 
 Gyararī API is an open-source project built and maintained by [Theerawat Pongsupawat](https://www.linkedin.com/in/pongsupawat/), frontend developer from Chiang Mai, Thailand.
+
+## Credits
+
+Gyararī API was bootstrapped with [TypeScript Node Starter](https://github.com/Microsoft/TypeScript-Node-Starter) - a starter template for TypeScript and Node.
 
 ---
 
