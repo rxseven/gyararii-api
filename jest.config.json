@@ -11,5 +11,17 @@
   "testMatch": [
     "<rootDir>/src/**/__tests__/**/*.{js,ts}",
     "<rootDir>/src/**/?(*.)(spec|test).{js,ts}"
+  ],
+  "testPathIgnorePatterns": [
+    "<rootDir>/.vscode/",
+    "<rootDir>/build/",
+    "<rootDir>/config/",
+    "<rootDir>/coverage/",
+    "<rootDir>/node_modules/",
+    "<rootDir>/src/__mock__/",
+    "<rootDir>/src/config/",
+    "<rootDir>/src/constants/",
+    "<rootDir>/src/types/",
+    "<rootDir>/tmp/"
   ]
 }
