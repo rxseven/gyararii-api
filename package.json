@@ -22,6 +22,7 @@
     "build": "tsc",
     "format": "prettier --write src/**/*.ts",
     "format:check": "prettier --check src/**/*.ts",
+    "format:debug": "prettier --debug-check src/**/*.ts",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint --fix src/**/*.ts",
     "start": "node build/server.js",
