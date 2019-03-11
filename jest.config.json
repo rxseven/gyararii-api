@@ -1,5 +1,17 @@
 {
   "collectCoverageFrom": ["src/**/*.{js,ts}", "!src/**/*.d.ts"],
+  "coveragePathIgnorePatterns": [
+    "<rootDir>/.vscode/",
+    "<rootDir>/build/",
+    "<rootDir>/config/",
+    "<rootDir>/coverage/",
+    "<rootDir>/node_modules/",
+    "<rootDir>/src/__mock__/",
+    "<rootDir>/src/config/",
+    "<rootDir>/src/constants/",
+    "<rootDir>/src/types/",
+    "<rootDir>/tmp/"
+  ],
   "globals": {
     "ts-jest": {
       "tsConfig": "tsconfig.json"
