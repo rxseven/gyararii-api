@@ -31,7 +31,8 @@
     "start:watch": "concurrently \"npm run start:compiler\" \"npm run start:server\"",
     "test": "jest --config jest.config.json",
     "test:coverage": "npm test -- --coverage --no-cache --silent",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watch",
+    "test:watch:verbose": "npm test -- --verbose --watch"
   },
   "dependencies": {
     "body-parser": "1.18.3",
