@@ -30,6 +30,7 @@
     "morgan": "1.9.1"
   },
   "devDependencies": {
+    "@types/cors": "2.8.4",
     "@types/dotenv": "6.1.0",
     "@types/node": "11.11.0",
     "concurrently": "4.1.0",
