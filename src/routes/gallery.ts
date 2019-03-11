@@ -6,6 +6,9 @@ import galleryController from '../controllers/gallery';
 const router = Router();
 
 // Route handlers
-router.route('/').get(galleryController.getImages);
+router
+  .route('/')
+  .get(galleryController.getImages)
+  .post(galleryController.uploadImages);
 
 export default router;
