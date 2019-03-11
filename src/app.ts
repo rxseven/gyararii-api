@@ -1,4 +1,5 @@
 import express from 'express';
+import morgan from 'morgan';
 
 // Load environment variables
 import './config/env';
@@ -11,5 +12,8 @@ const app: express.Application = express();
 
 // App configuration
 app.set('port', PORT);
+
+// HTTP request logger
+app.use(morgan('dev'));
 
 export default app;
