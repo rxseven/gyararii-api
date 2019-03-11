@@ -51,6 +51,7 @@
     "@types/jest": "24.0.11",
     "@types/lodash": "4.14.122",
     "@types/morgan": "1.7.35",
+    "@types/nock": "9.3.1",
     "@types/node": "11.11.0",
     "@types/prettier": "1.16.1",
     "@typescript-eslint/eslint-plugin": "1.4.2",
