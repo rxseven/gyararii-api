@@ -11,7 +11,8 @@
   // File associations to languages
   "files.associations": {
     ".huskyrc": "json",
-    ".lintstagedrc": "json"
+    ".lintstagedrc": "json",
+    ".prettierrc": "json"
   },
 
   // ESLint
