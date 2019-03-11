@@ -3,12 +3,20 @@ import cloudinary from 'cloudinary';
 import { Response, Request } from 'express';
 import { has } from 'lodash';
 
+// Constants
+const uploadPath = 'playground/upload';
+
 // Cloudinary configuration
 cloudinary.config({
   api_key: process.env.CLOUDINARY_API_KEY,
   api_secret: process.env.CLOUDINARY_API_SECRET,
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME
 });
+
+// Interfaces
+interface UploadRequest extends Request {
+  files: object;
+}
 
 // Get images
 function getImages(req: Request, res: Response): void {
@@ -53,4 +61,40 @@ function getImages(req: Request, res: Response): void {
     });
 }
 
-export default { getImages };
+// Upload images
+function uploadImages(req: UploadRequest, res: Response): void {
+  interface File {
+    fieldName: string;
+    headers: {
+      'content-disposition': string;
+      'content-type': string;
+    };
+    name: string;
+    originalFilename: string;
+    path: string;
+    size: number;
+    type: string;
+  }
+
+  // Return an array of a given object's own enumerable property values
+  const files: File[] = Object.values(req.files);
+
+  // Upload files to Cloudinary and return promises
+  const promises = files.map((image: File) => {
+    return cloudinary.v2.uploader.upload(image.path, {
+      folder: uploadPath
+    });
+  });
+
+  // Return results
+  Promise.all(promises)
+    .then(results => res.json(results))
+    .catch(() => {
+      res.status(500).send({
+        message: 'Something went wrong',
+        status: 'error'
+      });
+    });
+}
+
+export default { getImages, uploadImages };
