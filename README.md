@@ -1,6 +1,6 @@
 # Gyararī API
 
-[![Latest Release](https://img.shields.io/badge/latest-0.1.0-lightgrey.svg?style=flat 'Latest Release')](https://github.com/rxseven/gyararii-api/releases/tag/v0.1.0) [![Build Status](https://travis-ci.org/rxseven/gyararii-api.svg?branch=master 'Build Status')](https://travis-ci.org/rxseven/gyararii-api)
+[![Latest Release](https://img.shields.io/badge/latest-0.1.0-lightgrey.svg?style=flat 'Latest Release')](https://github.com/rxseven/gyararii-api/releases/tag/v0.1.0) [![Build Status](https://travis-ci.org/rxseven/gyararii-api.svg?branch=master 'Build Status')](https://travis-ci.org/rxseven/gyararii-api) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/ 'CC BY-NC-ND 4.0')
 
 **Gyararī API is a simple REST API for collecting photos.** It was built from scratch using Node, Express, and TypeScript.
 
