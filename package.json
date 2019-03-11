@@ -1,7 +1,7 @@
 {
   "name": "gyararii-api",
   "description": "REST API for Gyararī built with Node & Express",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "license": "AGPL-3.0-or-later",
   "author": {
     "name": "Theerawat Pongsupawat",
