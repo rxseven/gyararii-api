@@ -1,6 +1,6 @@
 # Gyararī API
 
-[![Latest Release](https://img.shields.io/badge/latest-0.1.0-lightgrey.svg?style=flat 'Latest Release')](https://github.com/rxseven/gyararii-api/releases/tag/v0.1.0) [![Build Status](https://travis-ci.org/rxseven/gyararii-api.svg?branch=master 'Build Status')](https://travis-ci.org/rxseven/gyararii-api) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/ 'CC BY-NC-ND 4.0') [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0 'AGPL v3')
+[![Latest Release](https://img.shields.io/badge/latest-0.1.2-lightgrey.svg?style=flat 'Latest Release')](https://github.com/rxseven/gyararii-api/releases/tag/v0.1.2) [![Build Status](https://travis-ci.org/rxseven/gyararii-api.svg?branch=master 'Build Status')](https://travis-ci.org/rxseven/gyararii-api) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/ 'CC BY-NC-ND 4.0') [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0 'AGPL v3')
 
 **Gyararī API is a simple REST API for collecting photos.** It was built from scratch using Node, Express, and TypeScript.
 
@@ -124,7 +124,7 @@ yarn test:watch:silent
 yarn test:watch:verbose
 ```
 
-> Note: Gyararī API v0.1.0 has not implemented any unit tests yet.
+> Note: Gyararī API v0.1.2 has not implemented any unit tests yet.
 
 > Note: by default, when you run test in [watch mode](https://jestjs.io/docs/en/cli.html#watch), Jest will only run the tests related to files changed (modified) since the last commit. This is an optimization designed to make your tests run fast regardless of how many tests in the project you have. However, you can also press `a` in the watch mode to force Jest to run all tests.
 
