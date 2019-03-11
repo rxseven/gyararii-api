@@ -29,7 +29,8 @@
     "start:compiler": "tsc -w",
     "start:server": "nodemon build/server.js",
     "start:watch": "concurrently \"npm run start:compiler\" \"npm run start:server\"",
-    "test": "jest --config jest.config.json"
+    "test": "jest --config jest.config.json",
+    "test:coverage": "npm test -- --coverage --no-cache --silent"
   },
   "dependencies": {
     "body-parser": "1.18.3",
