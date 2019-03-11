@@ -1,7 +1,22 @@
 {
+  // ESLint extension
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "eslint.validate": [
+    "typescript",
+    { "autoFix": true, "language": "typescript" }
+  ],
+
   // File associations to languages
   "files.associations": {
     ".huskyrc": "json",
     ".lintstagedrc": "json"
-  }
+  },
+
+  // ESLint
+  // Use ESLint for JavaScript linting rather than built-in JavaScript and
+  // TypeScript validation.
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false
 }
