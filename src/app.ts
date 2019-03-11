@@ -1,6 +1,7 @@
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import express from 'express';
+import formData from 'express-form-data';
 import morgan from 'morgan';
 
 // Load environment variables
@@ -27,5 +28,8 @@ app.use(
     origin: CLIENT_ORIGIN
   })
 );
+
+// Form data parser
+app.use(formData.parse());
 
 export default app;
