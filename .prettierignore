@@ -1,0 +1,5 @@
+./vscode
+/build
+/config
+/tmp
+package.json
