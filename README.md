@@ -104,7 +104,7 @@ Note: environment variables files are listed in [.gitignore](https://github.com/
 yarn start:watch
 ```
 
-This command will first compile (build) source code written in TypeScript in `/src` directory to plain ES5 JavaScript using TypeScript compiler. Once the app was built to `/build` directory, Nodemon will then start the Express server and listen for incoming connections on port 5000.
+This command will first compile (build) source code written in TypeScript in `./src` directory to plain ES5 JavaScript using TypeScript compiler. Once the app was built to `./build` directory, Nodemon will then start the Express server and listen for incoming connections on port 5000.
 
 > Note: this command will monitor for any changes and automatically re-compile source files and restart the server.
 
