@@ -15,6 +15,7 @@
 - [Technology Stack](#technology-stack)
 - [Development Workflow](#development-workflow)
 - [Third-party Services](#third-party-services)
+- [Related Projects](#related-projects)
 
 ## Live Demo
 
@@ -205,6 +206,12 @@ yarn start
 
 - [GitHub](https://github.com/) - web-based hosting service for version control using Git
 - [Travis CI](https://travis-ci.org/) - continuous integration
+
+[Back to top](#table-of-contents)
+
+## Related Projects
+
+**[Gyararī](https://github.com/rxseven/gyararii)** - a simple React app for collecting photos.
 
 [Back to top](#table-of-contents)
 
