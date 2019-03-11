@@ -12,3 +12,5 @@ script:
   - yarn test:coverage
   # Run code linting
   - yarn lint
+  # Create a production build
+  - yarn build
