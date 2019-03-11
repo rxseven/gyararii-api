@@ -1,0 +1,15 @@
+{
+  "collectCoverageFrom": ["src/**/*.{js,ts}", "!src/**/*.d.ts"],
+  "globals": {
+    "ts-jest": {
+      "tsConfig": "tsconfig.json"
+    }
+  },
+  "moduleFileExtensions": ["js", "ts"],
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testMatch": [
+    "<rootDir>/src/**/__tests__/**/*.{js,ts}",
+    "<rootDir>/src/**/?(*.)(spec|test).{js,ts}"
+  ]
+}
