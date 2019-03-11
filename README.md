@@ -20,6 +20,7 @@
 ### Appendix
 
 - [Development Milestones](#development-milestones)
+- [Changelog](#changelog)
 
 ## Live Demo
 
@@ -227,6 +228,10 @@ yarn start
 - More...
 
 [Back to top](#table-of-contents)
+
+## Changelog
+
+See [releases](https://github.com/rxseven/gyararii-api/releases).
 
 ---
 
