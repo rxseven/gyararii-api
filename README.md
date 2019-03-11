@@ -223,7 +223,9 @@ yarn start
 
 ## Related Projects
 
-**[Gyararī](https://github.com/rxseven/gyararii)** - a simple React app for collecting photos.
+**[Gyararī](https://github.com/rxseven/gyararii)**
+
+A simple React app for collecting photos.
 
 [Back to top](#table-of-contents)
 
