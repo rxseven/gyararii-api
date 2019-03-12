@@ -28,7 +28,13 @@ app.use(bodyParser.json());
 // CORS
 app.use(
   cors({
-    origin: CLIENT_ORIGIN
+    origin: (origin, callback) => {
+      if (CLIENT_ORIGIN.indexOf(origin) !== -1) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    }
   })
 );
 
