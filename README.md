@@ -4,7 +4,7 @@
 
 **Gyararī API is a simple REST API for collecting photos.** It was built from scratch using Node, Express, and TypeScript.
 
-> Gyararī or ギャラリー literally means “Gallery” in Japanese.
+> Gyararī (Romaji) or ギャラリー (Katakana) literally means “Gallery” in Japanese.
 
 ## Table of Contents
 
